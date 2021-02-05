@@ -11,6 +11,7 @@ f = open("directed.txt", "w")
 f.truncate(0)
 
 for i in range(SHORTLEN):
+	# For this line I used the resource https://stackoverflow.com/questions/33730396/python-how-to-generate-random-integers-with-multiple-ranges
 	ranges = choice( [(-1000, -500), (99500,100000)] )
 
 	num = randint(*ranges)
