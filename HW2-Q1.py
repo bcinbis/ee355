@@ -22,10 +22,6 @@ for i in range(SHORTLEN):
 
 f.close()
 
-
-
-
-
 g = open("directed.txt", "r")
 edge_cases = g.read()
 g.close()
