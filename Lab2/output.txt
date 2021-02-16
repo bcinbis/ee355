@@ -1,0 +1,8 @@
+Your results are: 
+FALSE
+FALSE
+TRUE
+TRUE
+FALSE
+FALSE
+TRUE
